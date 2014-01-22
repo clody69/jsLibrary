@@ -1,0 +1,13 @@
+!!! 5
+%html
+	%head
+		%title Testing the widget
+	%body
+		%p This shows how to include the default widget in a page
+		.widget(type="example")
+
+		%br
+		%p This shows how to include a customized widget in a page
+		.widget(type="example" location="germany" locale="de")
+
+		%script(type="text/javascript" src="/js/widget.js")

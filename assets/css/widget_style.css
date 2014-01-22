@@ -1,0 +1,15 @@
+
+.widget h1 {
+	color: red;
+}
+
+.widget ul {
+	list-style-type: none;
+	padding: 10 px;
+}
+
+.widget li {
+	border: 2px solid blue;
+	margin: 10px;
+	width: 100px;
+}

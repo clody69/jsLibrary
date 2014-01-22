@@ -1,0 +1,56 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    backports (3.4.0)
+    bourbon (3.1.8)
+      sass (>= 3.2.0)
+      thor
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.6.3)
+    execjs (2.0.2)
+    haml (4.0.5)
+      tilt
+    jsmin (1.0.1)
+    multi_json (1.8.4)
+    rack (1.5.2)
+    rack-protection (1.5.2)
+      rack
+    rack-test (0.6.2)
+      rack (>= 1.0)
+    sass (3.2.13)
+    sinatra (1.4.4)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (~> 1.3, >= 1.3.4)
+    sinatra-assetpack (0.3.2)
+      jsmin
+      rack-test
+      sinatra
+      tilt (>= 1.3.0, < 2.0)
+    sinatra-contrib (1.4.2)
+      backports (>= 2.0)
+      multi_json
+      rack-protection
+      rack-test
+      sinatra (~> 1.4.0)
+      tilt (~> 1.3)
+    sinatra-partial (0.4.0)
+      sinatra
+    thor (0.18.1)
+    tilt (1.4.1)
+    yui-compressor (0.12.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bourbon
+  coffee-script
+  haml
+  sass
+  sinatra-assetpack
+  sinatra-contrib
+  sinatra-partial
+  yui-compressor
