@@ -1,4 +1,7 @@
-
+.widget {
+	background-color: rgba(0,100,0,.5);
+	display: inline-block;
+}
 .widget h1 {
 	color: red;
 }
